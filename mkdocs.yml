@@ -1,0 +1,19 @@
+site_name: Cyberdeck Academy
+site_description: 500 Lessons from Scratch to Advanced
+
+theme:
+  name: material
+  palette:
+    scheme: slate      # This makes it Dark Mode
+    primary: lime      # Classic Cyberdeck Green
+    accent: lime
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Welcome: index.md
+  - Curriculum:
+    - Module 1: Foundations: modules/module1.md
