@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# ⚡ CYBERDECK ACADEMY ⚡
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome, Operator. 
 
-## Commands
+This is a comprehensive 500-lesson curriculum designed to take you from a hardware novice to a master of **Cyberdeck Technologies**.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### 🛠 Curriculum Tracks
+* **Hardware:** Soldering, CAD, 3D Printing, PCB Design.
+* **Systems:** Linux Kernel, Custom OS, Drivers.
+* **Cyber:** SDR, Network Security, Off-grid Comms.
 
-## Project layout
+### 🚀 Getting Started
+[Start Phase 1: Foundations](phase1-foundations/index.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+*System Status: Online*
+*Lessons Loaded: 500*

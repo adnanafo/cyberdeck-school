@@ -1,19 +1,38 @@
-site_name: Cyberdeck Academy
-site_description: 500 Lessons from Scratch to Advanced
+site_name: CYBERDECK ACADEMY
+site_description: 500 Lessons in Cyberdeck Technologies
+site_author: Your Name
 
 theme:
   name: material
+  language: en
   palette:
-    scheme: slate      # This makes it Dark Mode
-    primary: lime      # Classic Cyberdeck Green
-    accent: lime
+    # This sets the dark "Hacker" mode
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    code: Roboto Mono  # Technical looking font
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
     - search.suggest
+    - search.highlight
     - content.code.copy
 
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 nav:
-  - Welcome: index.md
-  - Curriculum:
-    - Module 1: Foundations: modules/module1.md
+  - Home: index.md
+  - Phase 1 Foundations: 
+    - Overview: phase1-foundations/index.md
+    - Lesson 1: phase1-foundations/lesson1.md
