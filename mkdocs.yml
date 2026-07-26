@@ -1,35 +1,20 @@
 site_name: CYBERDECK ACADEMY
-site_description: 500 Lessons in Cyberdeck Technologies
-site_author: Your Name
+site_url: https://adnanafo.github.io/cyberdeck-school/
 
 theme:
   name: material
-  language: en
-  palette:
-    # This sets the dark "Hacker" mode
-    - scheme: slate
-      primary: black
-      accent: lime
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   font:
-    code: Roboto Mono  # Technical looking font
+    text: VT323  # This is the CRT terminal font
+    code: Roboto Mono
+  palette:
+    scheme: slate
+    primary: black
+    accent: lime
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - search.suggest
-    - search.highlight
-    - content.code.copy
 
-markdown_extensions:
-  - admonition
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+extra_css:
+  - stylesheets/terminal.css
 
 nav:
   - Home: index.md
