@@ -14,7 +14,33 @@ extra_css:
   - stylesheets/terminal.css
 
 nav:
-  - Home: index.md
-  - Phase 1 Foundations: 
-    - Overview: phase1-foundations/index.md
-    - Lesson 1: phase1-foundations/lesson1.md
+  nav:
+  - SYSTEM HOME: index.md
+  - PHASE 1,: FOUNDATIONS (001-050):
+    - 001: The Cyberdeck Manifesto: phase1/001.md
+    - 002: Safety & High Voltage: phase1/002.md
+    - 003: Essential Tooling: phase1/003.md
+    - 004: Linux Terminal Basics: phase1/004.md
+    - 005: Architecture Overview: phase1/005.md
+  - PHASE 2,: ELECTRONICS (051-100):
+    - 051: Soldering Masterclass: phase2/051.md
+    - 052: Reading Schematics: phase2/052.md
+    - 053: Power Rails & Voltage: phase2/053.md
+    - 054: GPIO Theory: phase2/054.md
+  - PHASE 3,: COMPUTE UNITS (101-150):
+    - 101: Raspberry Pi Ecosystem: phase3/101.md
+    - 102: Orange Pi & Alternatives: phase3/102.md
+  - PHASE 4,: POWER & BATTERY:
+    - 201: LiPo Safety: phase4/201.md
+  - PHASE 5,: DISPLAYS & UI:
+    - 251: LVDS vs HDMI: phase5/251.md
+  - PHASE 6,: INPUT DEVICES:
+    - 301: Mechanical Keyboards: phase6/301.md
+  - PHASE 7,: SOFTWARE HARDENING:
+    - 351: Kernel Optimization: phase7/351.md
+  - PHASE 8,: CYBERTECH TOOLS:
+    - 401: SDR Radio Basics: phase8/401.md
+  - PHASE 9,: FABRICATION:
+    - 451: 3D Design for Decks: phase9/451.md
+  - PHASE 10,: FINAL BUILDS:
+    - 499: The Ultimate Deck: phase10/499.md
