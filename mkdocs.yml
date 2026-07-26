@@ -3,15 +3,12 @@ site_url: https://adnanafo.github.io/cyberdeck-school/
 
 theme:
   name: material
-  font:
-    text: VT323  # This is the CRT terminal font
-    code: Roboto Mono
   palette:
     scheme: slate
     primary: black
-    accent: lime
-  features:
-    - navigation.tabs
+  font:
+    text: VT323
+    code: Roboto Mono
 
 extra_css:
   - stylesheets/terminal.css
